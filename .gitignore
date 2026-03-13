@@ -1,0 +1,56 @@
+# Umgebungsvariablen – niemals committen!
+.env
+.env.local
+.env.production
+.env.testing
+.env.*.local
+
+# SQLite-Datenbank
+data/healthcheck.db
+data/healthcheck.db-wal
+data/healthcheck.db-shm
+data/*.db
+data/*.db-wal
+data/*.db-shm
+!data/.gitkeep
+
+# Logs
+*.log
+logs/*
+!logs/.gitkeep
+
+# PHP-Cache / Temp
+*.cache
+tmp/
+sessions/
+uploads/
+opcache/
+*.phar
+
+# Backup / Temp files
+*.bak
+*.backup
+*.orig
+*.tmp
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache/
+coverage/
+
+# OS-Dateien
+.DS_Store
+Thumbs.db
+
+# Editor-Konfiguration
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Composer (falls später genutzt)
+vendor/
+composer.lock
+.claude/
+CLAUDE.md
