@@ -1,7 +1,7 @@
 # Healthcheck Dashboard
 
-> **搌 Mirror-Hinweis:** Dieses Repository ist ein automatischer Spiegel.
-> Die primäre Entwicklung findet auf **[git.uliana.de/DasAoD/healthcheck](https://git.uliana.de/DasAoD/healthcheck)** statt.
+> **📌 Mirror-Hinweis:** Dieses Repository ist ein automatischer Spiegel.
+> Die primäre Entwicklung findet auf **[git.uliana.de/DasAoD/REPONAME](https://git.uliana.de/DasAoD/REPONAME)** statt.
 > Issues und Pull Requests bitte dort öffnen.
 
 A self-hosted monitoring dashboard for multiple sites and locations.  \nBuilt with plain PHP — no framework, no Composer.
